@@ -1,0 +1,98 @@
+head{
+	content=width=device-width, initial-scale=1.0;
+}
+body{
+	font-family: 'Roboto Mono', monospace;
+	background-image: url("bg5.jpeg");
+	background-repeat: no-repeat;
+	background-color: black;
+	background-size: cover;
+	color:white;
+	background-attachment: fixed;
+	background-position: center;
+	background-blend-mode: screen;
+	}
+nav ul{
+	margin:0;
+	padding:0;
+	font-size: 15px;
+	}
+nav li{
+	display: inline;
+	margin: 5px auto;
+	margin-bottom: 10px;
+	padding: 0;
+	text-align: center;
+	background-color: grey;
+	width: 25%;
+	height: 100%;
+	text-transform: uppercase;
+	text-decoration:none;
+    float: left;
+    list-style-type: none;
+    position:relative;
+    font-size:15px;
+	}
+nav a{
+	color:white;
+	}
+nav li:hover{
+	font-size: 20px;
+	background-color: black;
+}
+nav .topbar{
+	transition: 
+}
+a{
+	text-decoration: none;
+	color: blue;
+	}
+h1{
+	color: red;
+	text-align: left;
+	margin-bottom: 10px;
+	position:relative;
+	}
+ul img{
+	border-radius: 13px;
+	width: 30px;
+	height: 30px;
+	border: 1px solid;
+	transition: width 1s, height 1s, linear 0.5s;
+	}
+ul img:hover{
+	width: 50px;
+	height: 50px;
+}
+h3{
+	font-style: oblique; 
+	text-decoration: underline;
+	}
+.top img{
+	position:fixed;
+	right: 5%;
+	bottom: 5%;
+	opacity: 0.5;
+	width: 30px;
+	height: 30px;	
+}
+.top img:hover{
+	opacity: 1;
+}
+#me {
+	clear: both;
+	margin-top: 5%;
+}
+article ul li{
+	list-style-type: none;
+}
+h3 ol .movie img{
+	border: 1px solid white;
+	width: 50px;
+	height: 50px;
+	transition: width 1s, height 1s, linear 0.5s;
+}
+h3 ol .movie img:hover{
+	width: 70px;
+	height: 70px;
+}
